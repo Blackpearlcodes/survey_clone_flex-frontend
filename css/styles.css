@@ -1,0 +1,136 @@
+h1 {
+    color:rgb(84, 34, 34);
+    font-size: 95px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h2 {
+  color:rgb(84, 34, 34);
+  font-size: 30px;
+  text-align: left;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+form {
+  color:rgb(84, 34, 34); 
+  text-align: left;
+  padding-left: 100px;
+  font-weight: 400;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=radio], select {
+  width: 100%;
+  padding: 14px 10px;
+  margin: 10px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height:18px;
+  width:18px;
+  float: left;
+}
+
+
+.button {
+  border: 1px solid #888;
+  border-radius: 4px;
+  height: 40px;
+  width: 185px;
+  font-size: 22px;
+  text-align: center;
+  color: whitesmoke;
+  background-image: linear-gradient(rgb(78, 75, 75), rgb(138, 138, 138));
+}
+
+
+
+.body {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: #c8bebe;
+  box-shadow: rgba(0,0,0,.3);
+}
+
+.container {
+  max-width: 190rem;
+  margin: 0 5rem 0 8rem;
+  background-color: #c8bebe;
+  box-shadow: rgba(0,0,0,.3);
+  min-height: 50rem;
+}
+
+
+
+.header {
+  height: 250px;
+  background-color: #fff;
+  border-bottom: 1px solid #f4f2f2;
+  vertical-align:middle;
+  }
+
+
+.detail {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:flex-autoend;
+  align-self: stretch;
+  flex-basis: 90%;
+  flex-wrap: wrap;
+  padding-left: 1.5rem 2rem;
+  flex: 1 0 95%;
+
+}
+
+
+.recommend {
+  font-size: 1.3rem;
+  color: #777;
+  padding: 5px;
+  margin: 5px;
+}
+
+.textarea {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-self:flex-start;
+  flex-basis: 90%;
+  flex-wrap: wrap;
+  padding-left: 0.5rem 5rem;
+  margin-left: 0.5rem;
+  /* flex: 1 0 95%; */
+  background-color: #c8bebe;
+  border-bottom: 1px solid #f4f2f2;
+}
